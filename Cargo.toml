@@ -1,0 +1,20 @@
+[package]
+name = "caseta_codec"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+path = "src/main.rs"
+name = "caseta_codec"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.68"
+async-trait = "0.1.63"
+bytes = "1.3.0"
+tokio = {version="1.24.2", features=["macros", "rt-multi-thread", "io-util", "time", "net"]}
+url = "2.3.1"
