@@ -33,3 +33,6 @@ CASETA_PASSWORD=...
 ```
 
 you should now see the messages we saw with `nc` earlier coming out of the rust project's logs
+
+## Thank Yous:
+Many thanks to the maintainers of [`homebridge-pico`](https://github.com/rnilssoncx/homebridge-pico). I used this project to understand and adapt many pieces of the lutron pico protocol to my projects.
